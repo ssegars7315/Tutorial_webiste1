@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color: navy;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+        .row.content {
+            height: 450px
+        }
+
+        /* Set gray background color and 100% height */
+
+        .sidenav {
+            padding-top: 20px;
+            background-color: white;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+
+        footer {
+            background-color: gray;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }
+
+        .mytext {
+            font-family: 'Comic Sans MS', Times, serif;
+            font-size: 23px;
+            color: blue;
+        }
+
+        a,
+            {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family:Arial, Helvetica, sans-serif;
+            color: navy;
+            font-size: 25px;
+        }
+
+        div{
+            color: navy;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 15px;
+        }
+        div1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            color: grey;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 15px'
+        }
+    
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="#">How to find a job for Dummies !</a>
+				<a class="navbar-brand" href="index.html">Home</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						
+					</li>
+					<li>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Education
+                            <span class="caret"></span>
+                        </a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="edu_Topics1a2.html">How To Search For Jobs / Creating a Resume</a>
+							</li>
+							<li>
+								<a href="edu_topics3a4.html">How to Dress / Interview</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+                            <span class="caret"></span>
+                        </a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="aboutme_oliver">About Oliver</a>
+							</li>
+							<li>
+								<a href="aboutme_Shervon.html">About Shervon </a>
+							</li>
+
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Quiz
+                            <span class="caret"></span>
+                        </a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="quizPage.html">How to search for a job/Creating a resume Quiz</a>
+							</li>
+							<li>
+								<a href="quizPage2.html">How to dress/Interview Quiz </a>
+							</li>
+
+						</ul>
+
+
+				</ul>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <div class="jumbotron">
+            <h1 id = "titles"> About Me: Oliver</h1>
+            <p> Here's some information about myself. </p>
+    </div>
+    <div class="row">
+            <div class="col-md-3">
+                <img class="picture" src = "https://avatars2.githubusercontent.com/u/26553845?s=460&v=4"></img>
+                <p> This is my Github profile picture. </p>
+            </div>
+            <div class="col-md-9">
+                <p class="mytext">
+                    Hiya, I'm Oliver. I'm currently a Sophomore at Bayside High School and I'm 15 years old. I'm very interested with anything related to computers or gaming, as I personally believe it's my forte.
+                    This very belief is also why I chose the Programming CTE as my program to do. It was the right choice if I do say so myself.
+                    I'm also well-versed with things like music, writing, drawing/arts, and a bit of math (even though I don't really like the subject past algebra). For this website, I took on the role of creating the Firebase database, as well as the quizzes.
+                    It was rather time-consuming as it was doing the same thing over and over again, but nonetheless, in the end, it was finished.
+                    
+                </p>
+            </div>
+</body>
+
+</html>
